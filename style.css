@@ -170,3 +170,25 @@ p {
 img:hover {
   transition: 0.5s ease;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
